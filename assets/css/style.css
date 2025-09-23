@@ -154,6 +154,7 @@ main {
   background-color: lightblue;
   /* Main element take up any surplusspace to push footer down */
   flex: 1 0 auto;
+  margin-top: 47px;
 }
 
 /* Footer */
