@@ -41,7 +41,9 @@
         <h1 id="logo">Love Running</h1>
       </a>
       <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
       <nav>
         <ul id="menu">
           <li><a href="index.html">Home</a></li>
@@ -52,11 +54,80 @@
     </header>
 
     <!-- Main -->
-    <main>Main content</main>
+    <main>
+      <section id="signup">
+        <form
+          action="https://formdump.codeinstitute.net"
+          method="POST"
+          id="signup-form"
+        >
+          <h2>
+            <i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!
+          </h2>
+          <label for="first-name">First Name</label>
+          <input
+            id="first-name"
+            name="first-name"
+            type="text"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="last-name">Last Name</label>
+          <input
+            id="last-name"
+            name="last-name"
+            type="text"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="email-address">Email Address</label>
+          <input
+            id="email-address"
+            name="email-address"
+            type="email"
+            class="text-input"
+            required
+          />
+          <div>
+            <label for="road">Road</label>
+            <input
+              id="road"
+              type="radio"
+              name="running-preference"
+              value="road"
+              required checked
+            />
+          </div>
+
+          <div>
+            <label for="trail">Trail</label>
+            <input
+              id="trail"
+              type="radio"
+              name="running-preference"
+              value="trail"
+            />
+          </div>
+
+          <div>
+            <label for="both">Both</label>
+            <input
+              id="both"
+              type="radio"
+              name="running-preference"
+              value="both"
+            />
+          </div>
+          <button type="submit" class="join-button">Let's Run!</button>
+        </form>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer>
-      <ul id="social-networks">
+      <ul id="social-ne<tworks">
         <li>
           <a
             href="https://www.facebook.com/"
@@ -81,15 +152,17 @@
             target="_blank"
             rel="noopener"
             aria-label="Visit our YouTube page (opens in a new tab)"
-            ><i class="fa-brands fa-youtube"></i></a>
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
         </li>
-         <li>
+        <li>
           <a
             href="https://www.instagram.com/"
             target="_blank"
             rel="noopener"
             aria-label="Visit our Instagram page (opens in a new tab)"
-            ><i class="fa-brands fa-instagram"></i></a>
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
         </li>
       </ul>
     </footer>
